@@ -19,5 +19,5 @@ app.get('/get_pass', (req, res) => {
 });
 
 app.listen(9090, () => {
-  console.log('Server started on http://localhost:9090');
+  console.log('Server started on port 9090');
 });
